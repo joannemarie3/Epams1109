@@ -7,14 +7,19 @@ class Panel_model extends MY_Model {
 
 	}
 
-	public function count_user(){
-		$fetch = $this->db->get("users");
+	public function count_employee(){
+		$fetch = $this->db->get("employees");
 		$row = $fetch->num_rows();
 		return $row;
 	}
 
 	public function count_assets(){
 		$fetch = $this->db->get("assets");
+		$row = $fetch->num_rows();
+		return $row;
+	}
+	public function count_user(){
+		$fetch = $this->db->get("users");
 		$row = $fetch->num_rows();
 		return $row;
 	}
@@ -75,6 +80,6 @@ class Panel_model extends MY_Model {
 		return $row;
 	}
 
-	
+
 }
 ?>

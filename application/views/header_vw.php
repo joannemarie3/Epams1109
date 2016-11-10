@@ -54,7 +54,7 @@
 		<link rel="stylesheet" type="text/css" href="<?=base_url()?>/assets/jquery-ui/jquery-ui.min.css"/>
 		<script type="text/javascript" src="<?=base_url()?>/assets/jquery-ui/jquery-ui.min.js"></script>
 
-		
+
 		<script type="text/javascript">
 			$.fn.modal.Constructor.prototype.enforceFocus = function() {};
 		</script>
@@ -150,7 +150,7 @@
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="<?=base_url()?>media/img/no_image_found.png" class="img-circle" alt="User Image" />
+                    <img src="<?=base_url()?>media/img/eplogo.png" class="img-circle" alt="User Image" />
                     <p><b><?=$this->session->uname ?></b><br>
                       <br>
 											<?php if ($this->session->utype == 1): ?>

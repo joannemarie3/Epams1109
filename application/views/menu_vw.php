@@ -4,10 +4,11 @@
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="<?=base_url()?>media/comp_logo/epLabel.png" class="img-circle-25" alt="User Image" />
+                <img src="<?=base_url()?>media/img/eplogo.ico" class="img-circle-25" alt="User Image" />
             </div>
             <div class="pull-left info">
-                <p style="white-space:normal;  max-width:155px;">EPAMS</p>
+                <p style="white-space:normal;  max-width:155px;">Elevated Play Asset</p>
+                <p style="white-space:normal;  max-width:155px;">Management System</p>
             </div>
         </div>
 <!-- /.search form -->

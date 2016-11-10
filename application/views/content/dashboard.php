@@ -34,22 +34,22 @@
             <!-- small box -->
             <div class="small-box bg-green">
               <div class="inner">
-                <h3>53<sup style="font-size: 20px">%</sup></h3>
+                  <h3><?=$count_employee;?></h3>
 
-                <p>Borrowed (per Shift)</p>
+                <p>Employee's</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
               </div>
-              <a href="javascript:void(0);" onclick="loader('barrow','index');" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+              <a href="javascript:void(0);" onclick="loader('employee','index');" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col-->
           <div class="col-xs-2">
           <div class="small-box bg-light-blue">
             <div class="inner">
-            <h3>53<sup style="font-size: 20px">%</sup></h3>
-          <p>Total Borrowed</p>
+            <h3><?=$count_user;?></h3>
+          <p>User's</p>
         </div>
         <div class="icon">
           <i class="ion ion-stats-bars"></i>
